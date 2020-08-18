@@ -1,0 +1,537 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	outline: 0px;
+	font-family: nexa;
+
+}
+
+
+
+@media screen and (max-width: 575px){
+	header nav a{
+		max-width: 50%;
+	}
+	.clients img{
+		max-width: 50%;
+	}
+	.clients .col-xs-6{
+		width: 33.33%;
+
+	}
+
+	.one-number .ok .downloads{
+
+		
+	}
+
+}
+
+@media screen and (max-width: 1199px){
+
+	header{
+		background-size: 500px !important;
+	}
+	.global-support h1{
+		
+		font-size: 30px !important;
+		line-height: 46px !important;
+		font-weight: normal !important;
+	}
+
+	.questions ul li a{
+		font-size: 12px !important;
+	}
+
+	.subscription form input{
+		width: 50% !important;
+	}
+	
+}
+
+@media screen and (max-width: 991px){
+	.global-support img{
+		max-width: 45% !important;
+	}
+
+	.global-support h1{
+		font-size: 21px !important;
+		line-height: 29px !important;
+
+	}
+
+	.global-support p{
+
+		line-height: 22px !important;
+		
+	}
+
+	.questions ul li a{
+		font-size: 9px !important;
+	}
+
+	.questions h3{
+		font-size: 21px !important;
+	}
+
+	.questions p{
+		font-size: 12px;
+	}
+	.one-number {
+		background-image: none !important;
+	}
+
+	.one-number .ok{
+		width: 100% !important;
+	}
+
+	.one-number .ok .downloads{
+
+		border-right: 0px !important;
+		
+	}
+	.one-number .purchase {
+		display: flex;
+		justify-content: center;
+	}
+
+	.one-number .col-sm-12 img{
+		
+		display: block !important;
+		margin:auto;
+	}
+
+}
+
+@media screen and (min-width: 992px){
+	.global-support img{
+		max-width: 46%;
+	}
+
+
+}
+
+@media screen and (max-width: 350px){
+	.global-support img{
+		max-width: 100% !important;
+		width: 100% !important;
+	}
+}
+
+
+@media screen and (max-width: 767px){
+
+	header{
+		
+		background-image: none !important;
+	}
+
+	.cheap{
+		padding: 50px 0px !important;
+	}
+
+	.clients{
+		margin: 50px 0px !important;
+	}
+
+	.global-support h1{
+		font-size: 30px !important;
+		line-height: 46px !important;
+		margin-top: 20px;
+	}
+
+	.global-support{
+		margin-top: 80px !important;
+	}
+	.trust{
+		margin: 50px 0px !important;
+	}
+	.trust h1{
+		margin-top: 30px;
+	}
+	.features .mm{
+		height: 300px !important;
+	}
+	
+	.users .row{
+		flex-direction: column-reverse;
+
+	}
+
+	.users h2{
+		margin-bottom: 20px !important;
+		font-weight: bold !important;
+		font-size: 30px !important;
+	}
+
+	.subscription .row{
+		flex-direction: column-reverse;
+	}
+
+	.subscription .col-md-8{
+		margin-top: 30px !important;
+	}
+	.subscription form input{
+		width: 100% !important;
+	}
+	.subscription form button{
+		margin-left: 0px !important;
+		margin-top: 20px !important;
+
+	}
+	
+	.copyright img{
+		max-width: 16% !important;
+	}
+	.copyright p{
+		font-size: 12px !important;
+	}
+
+	footer .social{
+		max-width: 30% !important;
+	}
+
+}
+
+@media screen and (max-width: 895px){
+
+	header{
+		background-size: 400px !important;
+	}
+
+	.cheap h1{
+
+		font-size: 31px !important;
+		line-height: 39px !important;
+	}
+
+	.cheap p {
+		line-height: 20px !important;
+		font-size: 11px !important;
+		font-weight: lighter !important;
+
+	}
+
+	.purchase button{
+
+		color:  #5d97d5;
+		font-size: 14px;
+	}
+
+}
+
+@media screen and (max-width: 414px){
+
+	.global-support {
+		margin: 30px 0px!important;
+	}
+
+	.clients{
+		margin: 30px 0px !important;
+	}
+	.trust{
+		margin: 30px 0px !important;
+	}
+
+}
+
+
+
+.m-100{
+	margin: 100px 0px;
+}
+.m-80{
+	margin: 80px 0px;
+}
+
+.p-100{
+	padding: 100px 0px;
+}
+header{
+	background: url(../images/undraw_new_decade_n4qd.png);
+	background-repeat: no-repeat;
+	background-size: 700px;
+	background-position: right center;
+	background-color: #37517E;
+}
+
+header nav a{
+	color: #fff !important;
+}
+header nav a:hover{
+	color: #5d97d5 !important;
+}
+header li .dropdown-menu {
+	background-color: #37517E;
+}
+
+.cheap h1{
+	
+	font-size: 44px;
+	line-height: 65px;
+}
+
+.cheap p {
+	line-height: 28px;
+	font-size: 14px;
+	font-weight: lighter;
+
+}
+.purchase button{
+	color:  #5d97d5;
+}
+
+.clients img{
+	margin-top: 20px;
+}
+
+.global-support img{
+
+	width: 47% !important;
+	margin: 7px;
+}
+
+.global-support h1{
+
+	font-size: 44px;
+	line-height: 65px;
+	font-weight: bold;
+}
+
+.global-support p {
+	line-height: 28px;
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+.features .card img{
+	margin: auto;
+}
+
+.features .card p{
+	line-height: 28px;
+	font-size: 14px;
+	color: rgb(88, 119, 144);
+	font-weight: normal;
+}
+.features .card:hover{
+	margin-top: -5px !important;
+	margin-bottom: 10px;
+	transition: all .5s;
+}
+
+.feature-bg{
+	background-color: #F1F5F7;
+}
+
+.trust h1{
+	color: rgb(18, 48, 74);
+}
+.trust p{
+	color: rgb(88, 119, 144);
+	font-weight: normal;
+}
+.trust .purchase button{
+	background-color: rgb(58, 149, 191);
+	color: #fff;
+	font-size: 16px;
+}
+
+.questions h3{
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.questions p{
+	color: rgb(88, 119, 144);
+	font-weight: normal;
+}
+.questions ul li a{
+	font-weight: 500;
+	font-size: 16px;
+	color: rgb(18, 48, 74);
+	text-decoration: none;
+}
+.questions ul li a:hover{
+	color: rgb(58, 149, 191);
+}
+
+.range{
+	background-color: #F1F5F7;
+}
+
+.range h2{
+	line-height: 60px !important;
+	font-size: 35px !important;
+	font-weight: 500 !important;
+}
+.range p {
+	color: rgb(88, 119, 144);
+	font-weight: normal;
+}
+
+.solution-level{
+	background-color: #5170ac;
+}
+.solution-level h2{
+	line-height: 60px !important;
+	font-size: 35px !important;
+	font-weight: 500 !important;
+}
+
+.solution-level img{
+	background-color: #ffffffe8;
+	padding: 8px;
+	border: r;
+	border-radius: 50%;
+}
+.users .client-info{
+	display: flex;
+}
+
+.users .client-info .iimg img{
+	width: 80px;
+	height: 80px;
+	border: 2px solid #36bd9e;
+	border-radius: 50%;
+	float: left;
+}
+
+.users .client-info h4{
+	font-size: 20px;
+}
+
+.users .client-info h5{
+	font-size: 15px;
+}
+
+.users p{
+	color: rgb(88, 119, 144);
+	font-weight: normal;
+}
+h2.satisfaction {
+	font-size: 39px;
+	font-weight: bold;
+}
+
+.one-number{
+	background-color: #F1F5F7;
+	background-image: url(../images/undraw_researching_22gp.svg);
+	background-repeat: no-repeat;
+	background-size: 700px;
+	background-position: right center;
+}
+.one-number h2{
+	line-height: 60px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.one-number p{
+	color: rgb(88, 119, 144);
+	margin-top: 30px;
+	
+}
+
+.one-number .ok{
+	display: flex;
+	width: 65%;
+}
+
+.one-number .ok h3{
+	font-size: 18px;
+	margin: 0 0 10px 0;
+	font-weight: bold;
+	color: rgb(18, 48, 74);
+}
+.one-number .ok h1{
+	color: rgb(18, 48, 74);
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.best-price h2{
+	line-height: 60px !important;
+	font-size: 35px !important;
+	font-weight: bold !important;
+}
+.best-price p{
+	color: rgb(88, 119, 144);
+	font-weight: normal;
+}
+
+.best-price h4{
+	font-size: 20px;
+	color: rgb(18, 48, 74);
+	font-weight: bold;
+}
+
+.best-price h5{
+	color: rgb(71, 178, 228);
+	font-weight: bold;
+}
+
+.best-price ul li img{
+	margin-right: 15px;
+}
+.best-price ul li{
+	font-size: 16px;
+	padding: 10px 40px 10px 0px;
+	font-weight: normal;	
+}
+.best-price .card button{
+
+} 
+
+.subscription{
+	background-color: #F1F5F7;
+}
+.subscription h4{
+	color: rgb(18, 48, 74); 
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.subscription p{
+	color: rgb(88, 119, 144);
+	font-size: 14px;
+	font-weight: normal;
+
+}
+
+
+footer , .copyright{
+	background-color: rgb(81, 112, 172);
+}
+
+footer ul li.heading{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+footer ul li{
+	font-size: 14px;
+	margin:10px 0px;
+	color: #eae9e9;
+}
+
+footer .social {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer .social li{
+	font-size: 20px;
+}
+
+footer .social li:hover{
+	transform: scale(1.5);
+	transition-duration: .3s;
+}
+.copyright img{
+	max-width: 10%;
+	margin-bottom: 10px;
+}
